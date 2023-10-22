@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vijitha.io/static/css/main.073c9b0a.css",
+    "main.js": "/vijitha.io/static/js/main.3d76333c.js",
+    "static/js/787.3e4d9263.chunk.js": "/vijitha.io/static/js/787.3e4d9263.chunk.js",
+    "static/media/logo.svg": "/vijitha.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/vijitha.io/index.html",
+    "main.073c9b0a.css.map": "/vijitha.io/static/css/main.073c9b0a.css.map",
+    "main.3d76333c.js.map": "/vijitha.io/static/js/main.3d76333c.js.map",
+    "787.3e4d9263.chunk.js.map": "/vijitha.io/static/js/787.3e4d9263.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3d76333c.js"
+  ]
+}
