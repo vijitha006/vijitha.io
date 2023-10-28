@@ -1,9 +1,9 @@
 .App {
   text-align: center;
 }
-section{
+/* section{
   padding-left: 50px;
-}
+} */
 
 .contact_detail
 {
@@ -67,6 +67,8 @@ h2 {
   align-items: center;
   width: 65%;
   padding-top: 30px;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 p {
@@ -80,7 +82,7 @@ li {
 
 button {
   background-color: white;
-  width: 100px;
+  width: 200px;
   height: 40px;
   border-radius: 10px;
 }
@@ -94,6 +96,9 @@ button {
   width: 60%;
   background-color: #ddd;
   border-radius: 30px;
+}
+.skill{
+  padding-left: 2em;
 }
 .my_skill{
   text-align: left;
@@ -125,19 +130,26 @@ button {
   background-color: #808080;
 }
 
-@media only screen and (max-width: 600px) {
-  .image1 {
-    width: 100%;
-  }
-  .details {
-    padding-left: 30px;
-  }
+.education{
+  padding-left: 2em;
+}
+.exp
+{
+  padding-left: 2em;
+}
+.projects
+{
+  padding-left: 2em;
 }
 @media only screen and (max-width: 600px) {
   .image1 {
     width: 100%;
   }
+  .image{
+    padding: 0;
+  }
   .details {
-    padding-left: 30px;
+    padding-left: 2em;
+    width: 100%;
   }
 }

@@ -65,19 +65,19 @@ const showSkill=()=>{
       </div>
      
     </section>
-    <section >
+    <section  className='skill'>
       <h2 style={{textAlign :'left'}}><button onClick={showSkill}> View My Skills</button></h2>
  {show ? <Skill/> : ''}
     </section>
-    <section >
+    <section className='education'>
       <h2 style={{textAlign:'left'}}>Education</h2>
       <p style={{paddingLeft:'30px'}}>B.Tech Computer Science</p>
     </section>
-    <section >
+    <section className='exp'>
       <h2 style={{textAlign:'left'}}>Experience</h2>
       <p style={{paddingLeft:'30px'}}>Honeycomb Technology- 2021 to present</p>
     </section>
-    <section >
+    <section className='projects'>
       <h2 style={{textAlign:'left'}}>Projects</h2>
       <ul>
         <li><a href="https://www.honeycombtech.org/">Honeycomb Technology website</a></li>
