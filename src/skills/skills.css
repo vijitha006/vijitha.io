@@ -1,0 +1,39 @@
+.container-div {
+    width: 60%;
+    background-color: #ddd;
+    border-radius: 30px;
+    margin-bottom: 1em;
+  }
+  .skill{
+    padding-left: 2em;
+  }
+  .my_skill{
+    text-align: left;
+  }
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {
+    width: 70%;
+    background-color: #04AA6D;
+  }
+  
+  .css {
+    width: 60%;
+    background-color: #2196F3;
+  }
+  
+  .js {
+    width: 40%;
+    background-color: #f44336;
+  }
+  
+  .angular {
+    width: 60%;
+    background-color: #808080;
+  }
+  

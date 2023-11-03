@@ -1,0 +1,75 @@
+.name {
+    color: red;
+    font-weight: bold;
+  }
+  button {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px !important;
+  
+  }
+  
+  .button_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+  }
+  .heading1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-size: 30px ;
+    color: white;
+    padding: 0.5em 0;
+  }
+  .heading2 {
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+  }
+  .custom_github
+  {
+    font-size: 2.5em;
+    background: white;
+    padding: 0 5px;
+    color: black;
+  }
+  .custom_linkedin
+  {
+    font-size: 2.5em;
+    background: white;
+    color: #0072b1;
+    padding: 0 10px;
+
+  }
+  .intro
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    justify-content: center;
+    height: 450px;
+  }
+  .icons
+  {
+    width: 100%;
+   
+    height: 15%;
+    align-items: end;
+    text-align: end;
+   
+   
+  }
+  .introduction
+  {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,0 +1,29 @@
+.image1 {
+    width: 35%;
+    float: left;
+  }
+  
+  .image {
+    width: 400px;
+    padding: 50px 0 0 30px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .details {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    padding-top: 4em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  p {
+    font-size: 24px;
+  }
+  .contact_detail
+{
+  margin-bottom: 4em;
+ 
+}
