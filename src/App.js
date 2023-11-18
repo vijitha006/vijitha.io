@@ -38,8 +38,8 @@ function App() {
         <section className='projects'>
           <h2 className="heading2" style={{ textAlign: 'left' }}>Projects</h2>
           <ul>
-            <li><a href="https://www.honeycombtech.org/">Honeycomb Technology website</a></li>
-            <li><a href="https://www.thechesswarriors.com/">The Chesswarriors</a></li>
+            <li><a href="https://www.honeycombtech.org/" target='_blank'>Honeycomb Technology website</a></li>
+            <li><a href="https://www.thechesswarriors.com/" target='_blank'>The Chesswarriors</a></li>
           </ul>
         </section>
         <Contact/>

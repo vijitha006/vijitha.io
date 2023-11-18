@@ -64,15 +64,4 @@ li {
 {
   padding-left: 2em;
 }
-@media only screen and (max-width: 600px) {
-  .image1 {
-    width: 100%;
-  }
-  .image{
-    padding: 0;
-  }
-  .details {
-    padding-left: 2em;
-    width: 100%;
-  }
-}
+
