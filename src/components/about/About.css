@@ -2,9 +2,12 @@
     width: 35%;
     float: left;
   }
-  
+  .about 
+  {
+    height: 380px;
+  }
   .image {
-    width: 400px;
+    /* width: 400px; */
     padding: 50px 0 0 30px;
     max-width: 100%;
     height: auto;
@@ -28,19 +31,26 @@
  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .image1 {
     width: 100%;
-  }
-  .image{
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .image{
+    padding: 0;
+   
     margin-top: 1em;
   }
   .details {
-    padding-left: 2em;
+    padding: 0 1.5em 0 1.5em;
     width: 100%;
   }
+  .about{
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px){
+
 }

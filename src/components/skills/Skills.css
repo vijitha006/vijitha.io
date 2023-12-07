@@ -1,12 +1,8 @@
 .container-div {
     width: 60%;
-    background-color: #ddd;
-    border-radius: 30px;
-    margin-bottom: 1em;
+   
   }
-  .skill{
-    padding-left: 2em;
-  }
+  
   .my_skill{
     text-align: left;
   }
@@ -14,7 +10,8 @@
     text-align: right;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    font-weight: 500;
+   
   }
   
   .html {
@@ -37,3 +34,9 @@
     background-color: #808080;
   }
   
+  @media screen and (max-width: 600px)
+  {
+    .container-div{
+    width:85%;
+  }
+  }

@@ -1,49 +1,40 @@
 // import { useState } from 'react';
 import './App.css';
-import Header from './header/Header';
-import About from './about/About';
-import Skills from './skills/Skills';
-import Footer from './footer/Footer';
-import Contact from './contact/Contact';
+import Header from './components/header/Header';
+import About from './components/about/About';
+import Skills from './components/skills/Skills';
+import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
 
 function App() {
-  // const [show, setShow]=useState(false);
-  // const showSkill=()=>{
-  //   setShow(true);
-  // }
-
   return (
     <div >
-      <main className="main">
-        <section width="100" className="hero">                                                    
+      <main className="bg-danger-subtle m-0">
+        <section width="100" className=" w-100 hero">
           <Header />
         </section>
-
-
         <About />
+        <section className='ps-4 mb-4 mt-3'>
 
-        <section className='skill'>
-          {/* <h2 style={{textAlign :'left'}}><button onClick={showSkill}> View My Skills</button></h2>
- {show ? <Skill/> : ''} */}
           <Skills />
         </section>
-        <section className='education'>
-          <h2 className="heading2" style={{ textAlign: 'left' }}>Education</h2>
-          <p style={{ paddingLeft: '30px' }}>B.Tech Computer Science</p>
+        <section className='ps-4 mb-4'>
+          <h2 className="text-left fs-3  " >Education</h2>
+          <p className="ps-3" >B.Tech Computer Science</p>
         </section>
-        <section className='exp'>
-          <h2 className="heading2" style={{ textAlign: 'left' }}>Experience</h2>
-          <p style={{ paddingLeft: '30px' }}>Honeycomb Technology- 2021 to present</p>
+        <section className='ps-4 mb-4'>
+          <h2 className="text-left fs-3" >Experience</h2>
+          <p className="ps-3">Honeycomb Technology- 2021 to present</p>
         </section>
-        <section className='projects'>
-          <h2 className="heading2" style={{ textAlign: 'left' }}>Projects</h2>
+        <section className='ps-4 mb-4'>
+          <h2 className="text-left fs-3" >Projects</h2>
           <ul>
-            <li><a href="https://www.honeycombtech.org/" target='_blank'>Honeycomb Technology website</a></li>
-            <li><a href="https://www.thechesswarriors.com/" target='_blank'>The Chesswarriors</a></li>
+            <li><a href="https://www.honeycombtech.org/" target='_blank' rel='noreferrer'>Honeycomb Technology website</a></li>
+            <li><a href="https://www.thechesswarriors.com/" target='_blank' rel='noreferrer'>The Chesswarriors</a></li>
           </ul>
         </section>
-        <Contact/>
-<Footer/>
+        <Contact />
+        <Footer />
 
       </main>
     </div>
