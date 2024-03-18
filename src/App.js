@@ -5,8 +5,12 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
+import axios from 'axios';
+import { useState ,useEffect } from 'react';
 
 function App() {
+
+
   return (
     <div >
       <main className="bg-danger-subtle m-0">
